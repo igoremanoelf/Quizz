@@ -1,0 +1,68 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(216,245,255);
+  background: radial-gradient(circle, rgba(216,245,255,1) 0%, rgba(210,227,255,1) 52%, rgba(173,251,252,1) 100%);
+  color: #fff;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.quiz-container {
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.selected-answer {
+  color: #fff;
+  border-color: #fff;
+}
+
+.correct-answer {
+  background-color: #4caf50;
+}
+
+.incorrect-answer {
+  background-color: #ff5252;
+}
+
+.App h1 {
+  font-size: 20px;
+}
+
+.App p {
+  font-size: 15px;
+}
+
+.App button {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
